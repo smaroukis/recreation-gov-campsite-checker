@@ -6,6 +6,7 @@ import logging
 import sys
 from datetime import datetime, timedelta
 
+from notif_twilio import *
 import requests
 from fake_useragent import UserAgent
 
@@ -119,6 +120,7 @@ def _main(parks):
             )
         )
 
+
     if availabilities:
         print(
             "There are campsites available from {} to {}!!!".format(
@@ -126,6 +128,7 @@ def _main(parks):
                 args.end_date.strftime(INPUT_DATE_FORMAT),
             )
         )
+        print("\n".join(out))
     else:
         print("There are no campsites available :(")
     print("\n".join(out))

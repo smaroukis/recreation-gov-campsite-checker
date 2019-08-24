@@ -1,3 +1,20 @@
+
+# SMAROUKIS edits
+- Added twilio, dotenv 8/24
+- must have a SMS capable twilio phone
+
+# Setups
+Create file `.env` in project root with the following:
+```
+TWILIO_ACCOUNT_SID = <account_sid>
+TWILIO_AUTH_TOKEN = <auth_token>
+MY_PHONE = <your_personal_phone_number> # e.g. '+18001234567'
+TWILIO_PHONE = <twilio_sms_capable_phone>
+```
+
+original below from [recreation-gov-campsite-checker](https://github.com/banool/recreation-gov-campsite-checker)
+----
+
 # Campsite Availability Scraping
 
 **This has been updated to work with the new recreation.gov site and API!!!**
