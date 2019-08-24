@@ -1,7 +1,7 @@
 
 # SMAROUKIS edits
 - Added twilio, dotenv 8/24
-- must have a SMS capable twilio phone (see [Twilio Python SMS Quickstart](https://www.twilio.com/docs/sms/quickstart/python#sign-up-for-twilio-and-get-a-phone-number)
+- must have a SMS capable twilio phone (see [Twilio Python SMS Quickstart](https://www.twilio.com/docs/sms/quickstart/python#sign-up-for-twilio-and-get-a-phone-number) Cost = $1/mo + $0.0075/msg
 
 # Setups
 Create file `.env` in project root with the following:
