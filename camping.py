@@ -122,13 +122,13 @@ def _main(parks):
 
 
     if availabilities:
-        print(
-            "There are campsites available from {} to {}!!!".format(
+        send_sms(
+            "There are campsites available from {} to {}!!!\n{}".format(
                 args.start_date.strftime(INPUT_DATE_FORMAT),
                 args.end_date.strftime(INPUT_DATE_FORMAT),
+                out,
             )
         )
-        print("\n".join(out))
     else:
         print("There are no campsites available :(")
     print("\n".join(out))
