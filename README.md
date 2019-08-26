@@ -12,10 +12,12 @@ MY_PHONE = <your_personal_phone_number> # e.g. '+18001234567'
 TWILIO_PHONE = <twilio_sms_capable_phone>
 ```
 
-To run as crontab, e.g.
+To run as crontab, e.g. the following runs every 3 minutes:
 `crontab -e` 
 
-`*/3 * * * * <path/to/python e.g. which python> <path/to/recreation-gov-campsite-checker/camping.py> --start-date 2019-09-21 --end-date 2019-09-22 232447 232448 232448 232450`
+```
+*/3 * * * * <path/to/python e.g. which python> <path/to/recreation-gov-campsite-checker/camping.py> --start-date 2019-09-21 --end-date 2019-09-22 232447 232448 232448 232450
+```
 
 original below from [recreation-gov-campsite-checker](https://github.com/banool/recreation-gov-campsite-checker)
 ----
