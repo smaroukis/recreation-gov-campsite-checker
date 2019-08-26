@@ -13,7 +13,8 @@ TWILIO_PHONE = <twilio_sms_capable_phone>
 ```
 
 To run as crontab, e.g. the following runs every 3 minutes:
-`crontab -e` 
+
+`crontab -e` to edit crontabs (note: deprecated on Mac OS)
 
 ```
 */3 * * * * <path/to/python e.g. which python> <path/to/recreation-gov-campsite-checker/camping.py> --start-date 2019-09-21 --end-date 2019-09-22 232447 232448 232448 232450
