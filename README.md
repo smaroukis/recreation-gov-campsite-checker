@@ -3,6 +3,8 @@
 - Added twilio, dotenv 8/24
 - must have a SMS capable twilio phone (see [Twilio Python SMS Quickstart](https://www.twilio.com/docs/sms/quickstart/python#sign-up-for-twilio-and-get-a-phone-number) Cost = $1/mo + $0.0075/msg
 
+<p class=callout info> Use my twilio referral code to get $10! www.twilio.com/referral/6YW62Y  </p>
+
 # Setups
 Create file `.env` in project root with the following:
 ```
