@@ -22,3 +22,7 @@ def send_sms(body):
     )
 
     print(message.sid)
+
+if __name__=="__main__":
+    # send test message
+    send_sms("This is a test message from main in notify_twilio.py")

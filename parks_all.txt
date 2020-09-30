@@ -1,0 +1,13 @@
+# Yosemite
+232446 # wawona
+232447 # upper pines
+232448 # tuolumne
+232449 # north pines
+232450 # lower pines
+232452 # crane flat
+
+# Joshua Tree
+232472 # indian cove
+232473 # black rock
+272300 # jumbo rocks
+
