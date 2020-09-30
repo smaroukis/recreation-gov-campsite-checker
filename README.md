@@ -14,13 +14,17 @@ MY_PHONE = <your_personal_phone_number> # e.g. '+18001234567'
 TWILIO_PHONE = <twilio_sms_capable_phone>
 ```
 
-To run as crontab, e.g. the following runs every 3 minutes:
+To run as crontab, use Linux and crontab: 
+e.g. the following runs every 3 minutes
 
-`crontab -e` to edit crontabs (note: deprecated on Mac OS)
+(Note: `crontab -e` to edit crontabs)
 
 ```
 */3 * * * * <path/to/python> <path/to/recreation-gov-campsite-checker/camping.py> --start-date 2019-09-21 --end-date 2019-09-22 --parks 232447 232448 232449 232450
+0 6 * * * * <path/to/python> <path/to/recreation-gov-campsite-checker/notif_twilio.py>
 ```
+
+The first line runs the campsite checker every 3 minutes and the second line delivers a test notification every day at 6:00AM so that you know the cron job is running.
 
 original below from [recreation-gov-campsite-checker](https://github.com/banool/recreation-gov-campsite-checker)
 ----
